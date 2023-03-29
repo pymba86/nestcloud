@@ -1,5 +1,5 @@
 import { NestFactory } from '@nestjs/core';
-import { ServiceHubModule } from './service-hub.module';
+import { ServiceHubModule } from './app/service-hub.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(ServiceHubModule);

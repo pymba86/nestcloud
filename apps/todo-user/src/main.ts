@@ -1,5 +1,5 @@
 import { NestFactory } from '@nestjs/core';
-import { TodoUserModule } from './todo-user.module';
+import { TodoUserModule } from './app/todo-user.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(TodoUserModule);
