@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
-import { ServiceHubModule } from './../src/service-hub.module';
+import { ServiceHubModule } from './../src/namespace-hub.module';
 
 describe('ServiceHubController (e2e)', () => {
   let app: INestApplication;
